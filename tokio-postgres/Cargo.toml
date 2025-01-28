@@ -87,6 +87,6 @@ serde-1 = { version = "1.0", package = "serde" }
 serde_json-1 = { version = "1.0", package = "serde_json" }
 smol_str-01 = { version = "0.1", package = "smol_str" }
 uuid-08 = { version = "0.8", package = "uuid" }
-uuid-1 = { version = "1.0", package = "uuid" }
+uuid-1 = { git="https://github.com/lucannez64/uuid.git", rev="6166aaf", package = "uuid" }
 time-02 = { version = "0.2", package = "time" }
 time-03 = { version = "0.3", package = "time", features = ["parsing"] }
